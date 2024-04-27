@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="display"></div>
+    <div class="display2"></div>
+    
+    <div class="container">
+        <h1><b>TODO <span style="color: rgba(10, 182, 171, 1);">APP</span></b></h1>
+        <div style="text-align: center;">
+            <input id="inputField" type="text" />
+            <span style="display: flex;">
+                <button onclick="addtodo()" class="inputbtn">Add item</button>
+                <button onclick="deleteAll()" class="inputbtn">Delete All</button>
+            </span>
+        </div>
+
+        <div style="list-style: none; text-align: center">
+            <ul id="list" style="list-style: none; text-align: left"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
